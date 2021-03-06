@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7C036E25F0B9640042F1F2 /* BookDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C036C25F0B9640042F1F2 /* BookDetailCollectionViewCell.swift */; };
+		9D7C036F25F0B9640042F1F2 /* BookDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C036D25F0B9640042F1F2 /* BookDetailCollectionViewCell.xib */; };
+		9D7C037225F0BBD40042F1F2 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C037125F0BBD40042F1F2 /* BookDetailViewController.swift */; };
+		9D7C037925F14ED40042F1F2 /* LoadMoreCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C037725F14ED40042F1F2 /* LoadMoreCollectionReusableView.swift */; };
+		9D7C037A25F14ED40042F1F2 /* LoadMoreCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C037825F14ED40042F1F2 /* LoadMoreCollectionReusableView.xib */; };
+		9D7DBA2D25F21949008B2CEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7DBA2C25F21949008B2CEF /* Constants.swift */; };
 		9D92FC5B25EFF2E1000B3F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92FC5A25EFF2E1000B3F8D /* AppDelegate.swift */; };
 		9D92FC5D25EFF2E1000B3F8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92FC5C25EFF2E1000B3F8D /* SceneDelegate.swift */; };
 		9D92FC5F25EFF2E1000B3F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92FC5E25EFF2E1000B3F8D /* ViewController.swift */; };
 		9D92FC6225EFF2E1000B3F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D92FC6025EFF2E1000B3F8D /* Main.storyboard */; };
 		9D92FC6425EFF2E3000B3F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D92FC6325EFF2E3000B3F8D /* Assets.xcassets */; };
 		9D92FC6725EFF2E3000B3F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D92FC6525EFF2E3000B3F8D /* LaunchScreen.storyboard */; };
+		9D92FC7125EFF472000B3F8D /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92FC6F25EFF472000B3F8D /* BookCollectionViewCell.swift */; };
+		9D92FC7225EFF472000B3F8D /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D92FC7025EFF472000B3F8D /* BookCollectionViewCell.xib */; };
+		9D92FC7925F0093C000B3F8D /* GMPBooksNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92FC7825F0093C000B3F8D /* GMPBooksNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D92FC5725EFF2E1000B3F8D /* GetMyParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMyParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7C036C25F0B9640042F1F2 /* BookDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D7C036D25F0B9640042F1F2 /* BookDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		9D7C037125F0BBD40042F1F2 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		9D7C037725F14ED40042F1F2 /* LoadMoreCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreCollectionReusableView.swift; sourceTree = "<group>"; };
+		9D7C037825F14ED40042F1F2 /* LoadMoreCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadMoreCollectionReusableView.xib; sourceTree = "<group>"; };
+		9D7DBA2C25F21949008B2CEF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D92FC5725EFF2E1000B3F8D /* Bookify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D92FC5A25EFF2E1000B3F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D92FC5C25EFF2E1000B3F8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9D92FC5E25EFF2E1000B3F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		9D92FC6325EFF2E3000B3F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D92FC6625EFF2E3000B3F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D92FC6825EFF2E3000B3F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D92FC6F25EFF472000B3F8D /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D92FC7025EFF472000B3F8D /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
+		9D92FC7825F0093C000B3F8D /* GMPBooksNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMPBooksNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +55,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D7DBA2725F218B5008B2CEF /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C037825F14ED40042F1F2 /* LoadMoreCollectionReusableView.xib */,
+				9D7C037725F14ED40042F1F2 /* LoadMoreCollectionReusableView.swift */,
+				9D7C036C25F0B9640042F1F2 /* BookDetailCollectionViewCell.swift */,
+				9D7C036D25F0B9640042F1F2 /* BookDetailCollectionViewCell.xib */,
+				9D92FC6F25EFF472000B3F8D /* BookCollectionViewCell.swift */,
+				9D92FC7025EFF472000B3F8D /* BookCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		9D7DBA2825F218C4008B2CEF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9D92FC6525EFF2E3000B3F8D /* LaunchScreen.storyboard */,
+				9D92FC6025EFF2E1000B3F8D /* Main.storyboard */,
+				9D92FC5A25EFF2E1000B3F8D /* AppDelegate.swift */,
+				9D92FC5C25EFF2E1000B3F8D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9D7DBA2925F218E3008B2CEF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D7C037125F0BBD40042F1F2 /* BookDetailViewController.swift */,
+				9D92FC5E25EFF2E1000B3F8D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9D7DBA2A25F218F7008B2CEF /* Network Service */ = {
+			isa = PBXGroup;
+			children = (
+				9D92FC7825F0093C000B3F8D /* GMPBooksNetworkService.swift */,
+			);
+			path = "Network Service";
+			sourceTree = "<group>";
+		};
+		9D7DBA2B25F21928008B2CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D92FC6325EFF2E3000B3F8D /* Assets.xcassets */,
+				9D7DBA2C25F21949008B2CEF /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9D92FC4E25EFF2E1000B3F8D = {
 			isa = PBXGroup;
 			children = (
-				9D92FC5925EFF2E1000B3F8D /* GetMyParking */,
+				9D92FC5925EFF2E1000B3F8D /* Bookify */,
 				9D92FC5825EFF2E1000B3F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +116,30 @@
 		9D92FC5825EFF2E1000B3F8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D92FC5725EFF2E1000B3F8D /* GetMyParking.app */,
+				9D92FC5725EFF2E1000B3F8D /* Bookify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D92FC5925EFF2E1000B3F8D /* GetMyParking */ = {
+		9D92FC5925EFF2E1000B3F8D /* Bookify */ = {
 			isa = PBXGroup;
 			children = (
-				9D92FC5A25EFF2E1000B3F8D /* AppDelegate.swift */,
-				9D92FC5C25EFF2E1000B3F8D /* SceneDelegate.swift */,
-				9D92FC5E25EFF2E1000B3F8D /* ViewController.swift */,
-				9D92FC6025EFF2E1000B3F8D /* Main.storyboard */,
-				9D92FC6325EFF2E3000B3F8D /* Assets.xcassets */,
-				9D92FC6525EFF2E3000B3F8D /* LaunchScreen.storyboard */,
+				9D7DBA2825F218C4008B2CEF /* Application */,
+				9D7DBA2925F218E3008B2CEF /* View Controllers */,
+				9D7DBA2725F218B5008B2CEF /* CollectionViewCells */,
+				9D7DBA2A25F218F7008B2CEF /* Network Service */,
+				9D7DBA2B25F21928008B2CEF /* Supporting Files */,
 				9D92FC6825EFF2E3000B3F8D /* Info.plist */,
 			);
-			path = GetMyParking;
+			path = Bookify;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D92FC5625EFF2E1000B3F8D /* GetMyParking */ = {
+		9D92FC5625EFF2E1000B3F8D /* Bookify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D92FC6B25EFF2E3000B3F8D /* Build configuration list for PBXNativeTarget "GetMyParking" */;
+			buildConfigurationList = 9D92FC6B25EFF2E3000B3F8D /* Build configuration list for PBXNativeTarget "Bookify" */;
 			buildPhases = (
 				9D92FC5325EFF2E1000B3F8D /* Sources */,
 				9D92FC5425EFF2E1000B3F8D /* Frameworks */,
@@ -82,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = GetMyParking;
+			name = Bookify;
 			productName = GetMyParking;
-			productReference = 9D92FC5725EFF2E1000B3F8D /* GetMyParking.app */;
+			productReference = 9D92FC5725EFF2E1000B3F8D /* Bookify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D92FC5225EFF2E1000B3F8D /* Build configuration list for PBXProject "GetMyParking" */;
+			buildConfigurationList = 9D92FC5225EFF2E1000B3F8D /* Build configuration list for PBXProject "Bookify" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D92FC5625EFF2E1000B3F8D /* GetMyParking */,
+				9D92FC5625EFF2E1000B3F8D /* Bookify */,
 			);
 		};
 /* End PBXProject section */
@@ -124,7 +191,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7C037A25F14ED40042F1F2 /* LoadMoreCollectionReusableView.xib in Resources */,
 				9D92FC6725EFF2E3000B3F8D /* LaunchScreen.storyboard in Resources */,
+				9D92FC7225EFF472000B3F8D /* BookCollectionViewCell.xib in Resources */,
+				9D7C036F25F0B9640042F1F2 /* BookDetailCollectionViewCell.xib in Resources */,
 				9D92FC6425EFF2E3000B3F8D /* Assets.xcassets in Resources */,
 				9D92FC6225EFF2E1000B3F8D /* Main.storyboard in Resources */,
 			);
@@ -138,8 +208,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D92FC5F25EFF2E1000B3F8D /* ViewController.swift in Sources */,
+				9D92FC7925F0093C000B3F8D /* GMPBooksNetworkService.swift in Sources */,
+				9D7C036E25F0B9640042F1F2 /* BookDetailCollectionViewCell.swift in Sources */,
+				9D92FC7125EFF472000B3F8D /* BookCollectionViewCell.swift in Sources */,
+				9D7C037925F14ED40042F1F2 /* LoadMoreCollectionReusableView.swift in Sources */,
+				9D7C037225F0BBD40042F1F2 /* BookDetailViewController.swift in Sources */,
 				9D92FC5B25EFF2E1000B3F8D /* AppDelegate.swift in Sources */,
 				9D92FC5D25EFF2E1000B3F8D /* SceneDelegate.swift in Sources */,
+				9D7DBA2D25F21949008B2CEF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +364,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77S45L7QZX;
-				INFOPLIST_FILE = GetMyParking/Info.plist;
+				INFOPLIST_FILE = Bookify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pranaychander.GetMyParking;
+				PRODUCT_BUNDLE_IDENTIFIER = pranaychander.Bookify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +383,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77S45L7QZX;
-				INFOPLIST_FILE = GetMyParking/Info.plist;
+				INFOPLIST_FILE = Bookify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pranaychander.GetMyParking;
+				PRODUCT_BUNDLE_IDENTIFIER = pranaychander.Bookify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D92FC5225EFF2E1000B3F8D /* Build configuration list for PBXProject "GetMyParking" */ = {
+		9D92FC5225EFF2E1000B3F8D /* Build configuration list for PBXProject "Bookify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D92FC6925EFF2E3000B3F8D /* Debug */,
@@ -331,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D92FC6B25EFF2E3000B3F8D /* Build configuration list for PBXNativeTarget "GetMyParking" */ = {
+		9D92FC6B25EFF2E3000B3F8D /* Build configuration list for PBXNativeTarget "Bookify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D92FC6C25EFF2E3000B3F8D /* Debug */,
